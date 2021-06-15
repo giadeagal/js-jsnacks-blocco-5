@@ -75,7 +75,7 @@ for (var i = 0; i < corte.length; i++){
     pesoCorte += corte[i].peso
 }
 
-toPrint = "Hai raccolto " + zucchine.length + " zucchine:" + "<br>" + lunghe.length + " zucchine lunghe, che in totale pesano " + pesoLunghe/1000 + " Kg;" + "<br>" + corte.length + " zucchine corte, che in totale pesano " + pesoCorte/1000 + " Kg;";
+var toPrint = "Hai raccolto " + zucchine.length + " zucchine:" + "<br>" + lunghe.length + " zucchine lunghe, che in totale pesano " + pesoLunghe/1000 + " Kg;" + "<br>" + corte.length + " zucchine corte, che in totale pesano " + pesoCorte/1000 + " Kg;";
 
 docuPrint("text", toPrint)
 
