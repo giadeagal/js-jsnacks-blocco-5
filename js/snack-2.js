@@ -48,7 +48,7 @@ var zucchine = [
         tipo: randNum(1, 5),
         peso: parseInt(randNum(50, 400)),
         lunghezza: parseInt(randNum(10, 30))
-    },
+    }
 ];
 
 var pesoTot = 0;
